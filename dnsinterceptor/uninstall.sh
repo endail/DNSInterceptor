@@ -12,6 +12,7 @@ systemctl disable dnsinterceptor
 # Remove the service file
 rm /etc/systemd/system/dnsinterceptor.service
 systemctl daemon-reload
+systemctl reset-failed
 
 # Remove the app directory
 rm -rf /opt/dnsinterceptor
