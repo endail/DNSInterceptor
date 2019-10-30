@@ -1,4 +1,3 @@
-
-# Block local domains
-\.local$
-
+#
+# See https://github.com/endail/PythonDNS/blob/master/tests/blacklist.txt
+#
